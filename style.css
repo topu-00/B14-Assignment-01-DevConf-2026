@@ -178,3 +178,128 @@ p,
 }
 
 /* -------Cards Section End------ */
+
+
+
+
+/* Secure Your Spot (Pricing) Section  */
+
+.pricing {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pricing-header {
+    text-align: center;
+}
+
+
+.pricing-header h2 {
+    font-size: 45px;
+    line-height: 80px;
+}
+
+.pricing-header p {
+    color: #575757;
+}
+
+
+.pricing-cards {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+    gap: 30px;
+}
+
+
+.pricing-card {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: auto;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 30px 50px;
+}
+
+hr {
+    border: 0.1px solid #575757;
+    opacity: 0.2;
+}
+
+.plan-name {
+    color: #575757;
+    font-size: 14px;
+}
+
+.plan-price {
+    color: black;
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 50px;
+}
+
+.plan-type {
+    color: #575757;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+
+.plan-list li {
+    margin: 18px;
+    color: #575757;
+    font-size: 12px;
+}
+
+.plan-list li::marker {
+    color: #1D4ED8;
+}
+
+.plan-button-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.plan-button {
+    width: 95%;
+    background-color: white;
+    color: #1D4ED8;
+    border: 1px solid #1D4ED8;
+}
+
+
+.pricing-card-2 {
+    background-color: #0D1B2A;
+}
+
+.pricing-card-2 .plan-name {
+    color: #93C5FD;
+}
+
+.pricing-card-2 .plan-price {
+    color: white;
+}
+
+
+.pricing-card-2 .plan-list li::marker {
+    color: #93C5FD;
+}
+
+.pricing-card-2 .plan-type,
+.pricing-card-2 .plan-list li {
+    color: #FFFFFF;
+}
+
+.pricing-card-2 .plan-button-section .plan-button {
+    background-color: #1D4ED8;
+    color: #FFFFFF;
+}
+
+/* Secure Your Spot (Pricing) Section end */
