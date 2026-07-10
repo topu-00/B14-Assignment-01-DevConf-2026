@@ -302,4 +302,75 @@ hr {
     color: #FFFFFF;
 }
 
+
 /* Secure Your Spot (Pricing) Section end */
+
+
+
+
+
+/* PLACEHOLDER SECTION  */
+
+.placeholder-section div {
+    height: 500px;
+    width: 80%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.placeholder-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+/* PLACEHOLDER SECTION END */
+
+
+/* footer */
+footer {
+    background-color: #0D1B2A;
+    padding: 30px;
+}
+
+.logo-link {
+    margin: 0 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    color: white;
+
+}
+
+.icon {
+    color: white;
+    font-size: 25px;
+}
+
+.link ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.copyright-terms-condition {
+    display: flex;
+    justify-content: space-around;
+    color: #FFFFFF;
+    font-size: 12px;
+}
+
+.terms-condition {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+/* footer end */
