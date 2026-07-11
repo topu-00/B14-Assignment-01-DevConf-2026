@@ -427,17 +427,12 @@ footer {
     gap: 30px;
 }
 
-.copyright-terms-condition {
+.copyright {
     display: flex;
-    justify-content: space-around;
-    color: #FFFFFF;
+    justify-content: center;
+    align-items: center;
+    color: #7c7b7b;
     font-size: 12px;
-}
-
-.terms-condition {
-    display: flex;
-    justify-content: space-around;
-    gap: 30px;
 }
 
 /* footer end */
